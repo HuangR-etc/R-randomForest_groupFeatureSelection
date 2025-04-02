@@ -1,0 +1,691 @@
+
+[DEBUG] regRF接收到的新增参数:
+----------------------------------------
+- method:           1
+- huangr_mtry:      2
+- huangr_n_layers:  3
+
+[数组参数检查]
+- huangr_stratum 内容 (前 3 层):
+层[0] = 0
+层[1] = 1
+层[2] = 2
+- huangr_start 内容 (前 3 层):
+  层[0] = 1
+  层[1] = 3
+  层[2] = 4
+- huangr_n_vars 内容 (前 3 层):
+  层[0] = 2
+  层[1] = 1
+  层[2] = 3
+----------------------------------------
+
+
+[DEBUG] RegTree receive PAR:
+----------------------------------------
+- method:           1
+- huangr_mtry:      2
+- huangr_n_layers:  3
+
+[数组参数检查]
+- huangr_stratum 内容 (前 3 层):
+  层[0] = 0
+  层[1] = 1
+  层[2] = 2
+- huangr_start 内容 (前 3 层):
+  层[0] = 1
+  层[1] = 3
+  层[2] = 4
+- huangr_n_vars 内容 (前 3 层):
+  层[0] = 2
+  层[1] = 1
+  层[2] = 3
+----------------------------------------
+
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+
+[DEBUG] RegTree receive PAR:
+----------------------------------------
+- method:           1
+- huangr_mtry:      2
+- huangr_n_layers:  3
+
+[数组参数检查]
+- huangr_stratum 内容 (前 3 层):
+  层[0] = 0
+  层[1] = 1
+  层[2] = 2
+- huangr_start 内容 (前 3 层):
+  层[0] = 1
+  层[1] = 3
+  层[2] = 4
+- huangr_n_vars 内容 (前 3 层):
+  层[0] = 2
+  层[1] = 1
+  层[2] = 3
+----------------------------------------
+
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 2 0 1 
+Selected groups: 1 0 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 2 1 
+[SWAP] 交换后临时数组: 0 0 1 
+Selected groups: 1 2 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 0 0 0 
+Selected groups: 2 1 
+Total selected variables: 4
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 2 0 0 
+Selected groups: 0 1 
+Total selected variables: 3
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 2 1 0 
+[SWAP] 交换后临时数组: 1 2 0 
+Selected groups: 0 2 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
+get in findBestSplit_new
+[SWAP] 交换后临时数组: 0 1 0 
+[SWAP] 交换后临时数组: 1 0 0 
+Selected groups: 2 0 
+Total selected variables: 5
