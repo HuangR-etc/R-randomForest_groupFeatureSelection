@@ -1,2 +1,2 @@
 # randomForest_groupFeatureSelection
-For the data with autocorrelation, the decision tree is constructed by grouping
+Edit the R package randomforest, the decision tree is constructed by grouping features.
